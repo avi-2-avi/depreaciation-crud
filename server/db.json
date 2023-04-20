@@ -1,32 +1,46 @@
 {
   "cvBien": [
     {
-      "cvId": 1,
+      "id": 1,
       "cvDescripcion": "asd",
       "cvCantidad": 12,
       "cvPrecioUnitario": 12.1,
       "cvValorResidual": 1.2
     },
     {
-      "cvId": 2,
+      "id": 2,
       "cvDescripcion": "asd",
-      "cvCantidad": 12,
+      "cvCantidad": 32,
       "cvPrecioUnitario": 12.1,
       "cvValorResidual": 1.2
     },
     {
-      "cvId": 3,
+      "id": 3,
       "cvDescripcion": "asd",
-      "cvCantidad": 12,
+      "cvCantidad": 31,
       "cvPrecioUnitario": 12.1,
       "cvValorResidual": 1.2
     },
     {
-      "cvId": 4,
+      "id": 4,
       "cvDescripcion": "asd",
-      "cvCantidad": 12,
+      "cvCantidad": 32,
       "cvPrecioUnitario": 12.1,
       "cvValorResidual": 1.2
+    },
+    {
+      "id": 22,
+      "cvDescripcion": "asdfas",
+      "cvCantidad": 213,
+      "cvPrecioUnitario": 432,
+      "cvValorResidual": 432
+    },
+    {
+      "id": 44,
+      "cvDescripcion": "redes",
+      "cvCantidad": 22,
+      "cvPrecioUnitario": 1,
+      "cvValorResidual": 3
     }
   ]
 }

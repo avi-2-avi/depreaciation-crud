@@ -1,0 +1,67 @@
+<section>
+  <div class="label">
+    <h1>Despreciacion</h1>
+  </div>
+
+  <form (submit)="onSubmit()" #cvBienForm="ngForm">
+    <p>Id</p>
+    <mat-form-field>
+      <input
+        matInput
+        type="number"
+        placeholder="id"
+        name="id"
+        required
+        [(ngModel)]="cvBienData.id"
+      />
+    </mat-form-field>
+    <p>Descripción</p>
+    <mat-form-field>
+      <input
+        matInput
+        type="text"
+        placeholder="Descripción"
+        name="cvDescripcion"
+        required
+        [(ngModel)]="cvBienData.cvDescripcion"
+      />
+    </mat-form-field>
+    <p>Cantidad</p>
+    <mat-form-field>
+      <input
+        matInput
+        type="number"
+        placeholder="0"
+        name="cvCantidad"
+        required
+        [(ngModel)]="cvBienData.cvCantidad"
+      />
+    </mat-form-field>
+    <p>Precio</p>
+    <mat-form-field>
+      <input
+        matInput
+        type="number"
+        placeholder="0.0"
+        name="cvPrecioUnitario"
+        required
+        [(ngModel)]="cvBienData.cvPrecioUnitario"
+      />
+    </mat-form-field>
+    <p>Valor residual</p>
+    <mat-form-field>
+      <input
+        matInput
+        type="number"
+        placeholder="0.0"
+        name="cvValorResidual"
+        required
+        [(ngModel)]="cvBienData.cvValorResidual"
+      />
+    </mat-form-field>
+    <div>
+      <button mat-raised-button (click)="onListarBien()">Listar</button>
+      <button mat-raised-button color="primary">Grabar</button>
+    </div>
+  </form>
+</section>
