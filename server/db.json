@@ -1,0 +1,32 @@
+{
+  "cvBien": [
+    {
+      "cvId": 1,
+      "cvDescripcion": "asd",
+      "cvCantidad": 12,
+      "cvPrecioUnitario": 12.1,
+      "cvValorResidual": 1.2
+    },
+    {
+      "cvId": 2,
+      "cvDescripcion": "asd",
+      "cvCantidad": 12,
+      "cvPrecioUnitario": 12.1,
+      "cvValorResidual": 1.2
+    },
+    {
+      "cvId": 3,
+      "cvDescripcion": "asd",
+      "cvCantidad": 12,
+      "cvPrecioUnitario": 12.1,
+      "cvValorResidual": 1.2
+    },
+    {
+      "cvId": 4,
+      "cvDescripcion": "asd",
+      "cvCantidad": 12,
+      "cvPrecioUnitario": 12.1,
+      "cvValorResidual": 1.2
+    }
+  ]
+}
